@@ -10,12 +10,10 @@ def create_token(data, secret):
     return encoded_jwt
 
 
-def verify_signature(token, secret):
+def verify_signature(token):
     try:
         docoded_jwt = jwt.decode(token, secret, algorithms='HS256')
         return docoded_jwt
     except jwt.exceptions.InvalidSignatureError:
         return {"error": 2}
 
-
-print(verify_signature(token, secret))

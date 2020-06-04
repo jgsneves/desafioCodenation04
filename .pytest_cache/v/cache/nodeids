@@ -1,3 +1,5 @@
 [
-  "test_main.py::TestChallenge4::()::test_create_token"
+  "test_submit.py::TestChallenge4::()::test_verify_signature",
+  "test_submit.py::TestChallenge4::()::test_verify_signature_fail",
+  "test_submit.py::TestChallenge4::()::test_create_token"
 ]

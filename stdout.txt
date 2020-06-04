@@ -2,8 +2,11 @@
 platform win32 -- Python 3.8.2, pytest-3.6.2, py-1.5.3, pluggy-0.6.0 -- C:\Users\JoaoNeves\codenation\python-8\venv\Scripts\python.exe
 cachedir: .pytest_cache
 rootdir: C:\Users\JoaoNeves\codenation\python-8, inifile:
-collecting ... collected 1 item
+collecting ... collected 3 items
 
-test_main.py::TestChallenge4::test_create_token PASSED                   [100%]
+test_submit.py::TestChallenge4::test_verify_signature PASSED             [ 33%]
+test_submit.py::TestChallenge4::test_verify_signature_fail PASSED        [ 66%]
+test_submit.py::TestChallenge4::test_create_token PASSED                 [100%]
 
-========================== 1 passed in 0.02 seconds ===========================
+---- generated xml file: C:\Users\JoaoNeves\codenation\python-8\output.xml ----
+========================== 3 passed in 0.04 seconds ===========================
