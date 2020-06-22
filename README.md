@@ -1,3 +1,7 @@
+<h1 align=center>
+<img src="https://raw.githubusercontent.com/jgsneves/desafioCodenation/master/codenation.png" />
+</h1>
+
 # Desafio sobre Backend Skills
 
  O JSON Web Token (JWT) é um padrão aberto (RFC 7519) que define uma maneira compacta e 
